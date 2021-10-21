@@ -1,3 +1,8 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# Simple text-based Calculator
+
+def select_operator():
+    """
+    User input is requested for operator selection,
+    and if an incorrect option is made, the user is
+    given relevant feedback.
+    """
