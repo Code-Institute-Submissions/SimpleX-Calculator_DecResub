@@ -28,15 +28,21 @@ def numeric_operation():
         print("Currently working on Square Root...\n")
         sqrt_num = number_entry("1")
         result = sqrt_num ** NUM_CONSTANT
-        print("Calculation completed Successfully.\n")
+        print("Calculation Successfully Done.\n")
         return result
     else:
-        num1 = number_entry("Enter first number")
-        num2 = number_entry("Enter second number")
+        num1 = number_entry("1st number")
+        num2 = number_entry("2nd number")
         my_option = option
         if my_option == "1":
-            print("Currently adding numbers...\n")
+            print("Currently working on Addition function...\n")
             result = num1 + num2
+            print("Calculation Successfully Done.\n")
+            return result
+        elif my_option == "2":
+            print("Currently working on Subtract function...\n")
+            result = num1 - num2
+            print("Calculation Successfully Done.\n")
             return result
 
 
@@ -48,7 +54,7 @@ def number_entry(pos):
     """
     while True:
         try:
-            num = float(input(f"Enter {pos} number:\n"))
+            num = float(input(f"Enter {pos}:\n"))
             return num
         except ValueError:
             print("Invalid entry, Please try again!:\n")
