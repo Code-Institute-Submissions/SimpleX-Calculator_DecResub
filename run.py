@@ -25,10 +25,10 @@ def numeric_operation():
     select_operator()
     NUM_CONSTANT = 0.5
     if option == "5":
-        print("Doing the Square Root Calculation...\n")
+        print("Currently working on Square Root...\n")
         sqrt_num = number_entry("1")
         result = sqrt_num ** NUM_CONSTANT
-        print("Square Root Calculation completed Successfully.\n")
+        print("Calculation completed Successfully.\n")
         return result
     else:
         num1 = number_entry("Enter first number")
@@ -52,3 +52,13 @@ def number_entry(pos):
             return num
         except ValueError:
             print("Invalid entry, Please try again!:\n")
+
+
+"""
+Accept user name and displays a personalised welcome message
+to the user.
+"""
+your_name = input("(Optional) Please Enter your name: \n")
+print(f"Welcome {your_name} to the SimpleX")
+answer = numeric_operation()
+print(f"The answer to your calculation is {answer}")
