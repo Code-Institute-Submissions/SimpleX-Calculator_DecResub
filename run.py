@@ -44,6 +44,11 @@ def numeric_operation():
             result = num1 - num2
             print("Calculation Successfully Done.\n")
             return result
+        elif my_option == "3":
+            print("Currently working on Multiply function...\n")
+            result = num1 * num2
+            print("Calculation Successfully Done.\n")
+            return result
 
 
 def number_entry(pos):
