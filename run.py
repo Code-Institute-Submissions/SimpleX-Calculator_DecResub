@@ -30,6 +30,9 @@ def numeric_operation():
         result = sqrt_num ** NUM_CONSTANT
         print("Calculation Successfully Done.\n")
         return result
+    if option == "6":
+        print(f"Thanks {your_name} for using SimpleX")
+        exit()
     else:
         num1 = number_entry("1st number")
         num2 = number_entry("2nd number")
@@ -49,6 +52,13 @@ def numeric_operation():
             result = num1 * num2
             print("Calculation Successfully Done.\n")
             return result
+        elif my_option == "4":
+            print("Currently working on Division function...\n")
+            result = num1 / num2
+            print("Calculation Successfully Done.\n")
+            return result
+        else:
+            return " None, An invalid operator has been selected"
 
 
 def number_entry(pos):
