@@ -130,10 +130,24 @@ __Languages Used__
 * The GitHub Repository can be found here - [SimpleX Calculator](https://github.com/RH-devs/SimpleX-Calculator)
 
 ## Credits
+
 __Content__
 
 * The app logo image “SimpleX-Calculator” was taken from Google while the app name was formed by me.
 
 * I followed an online tutorial video from YouTube by Learn Code, You can find video tutorial here [Learn Code](https://youtu.be/61DrWY_ao4A).
 
-* I also used the Love-sandwiches (Essential python project) videos. Though the code has some similarities, i was able to apply my own metrics to the building the functions.
+* The Flake8Rules resource was utilized to resolve issues with a indentation.
+
+* I used the Love-sandwiches (Essential python project) videos. Though the code has some similarities, i was able to apply my own metrics to the building the functions.
+
+* I also checked Stackover flow to resolve an issue with looping [Stackoverflow](https://stackoverflow.com/questions/68109027/python-using-for-loop-in-def-function)
+
+
+## Acknowledgement
+
+ * Code Institute on the walkthrough python essential project.
+
+ * Learn Code tutorial video on YouTube for helpful resources.
+
+ * Stackoverflow and flake8rules resources.
