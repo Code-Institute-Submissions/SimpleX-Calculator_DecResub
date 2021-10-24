@@ -128,3 +128,12 @@ __Languages Used__
 
 * The live link can be found here – [SimpleX Calculator](https://simplex-calculator.herokuapp.com/)
 * The GitHub Repository can be found here - [SimpleX Calculator](https://github.com/RH-devs/SimpleX-Calculator)
+
+## Credits
+__Content__
+
+* The app logo image “SimpleX-Calculator” was taken from Google while the app name was formed by me.
+
+* I followed an online tutorial video from YouTube by Learn Code, You can find video tutorial here [Learn Code](https://youtu.be/61DrWY_ao4A).
+
+* I also used the Love-sandwiches (Essential python project) videos. Though the code has some similarities, i was able to apply my own metrics to the building the functions.
