@@ -8,6 +8,7 @@ def select_operator():
     global option
     option = input(
                  "The functions below will help carry out your calculation:\n"
+                 "Select your preferred option:\n"
                  "1. Addition\n"
                  "2. Subtraction\n"
                  "3. Multiply\n"
@@ -31,7 +32,7 @@ def numeric_operation():
         print("Calculation Successfully Done.\n")
         return result
     if option == "6":
-        print(f"Thanks {your_name} for using SimpleX")
+        print(f"Thanks {user_name} for using SimpleX")
         exit()
     else:
         num1 = number_entry("1st number")
@@ -79,7 +80,21 @@ def number_entry(pos):
 Accept user name and displays a personalised welcome message
 to the user.
 """
-your_name = input("(Optional) Please Enter your name: \n")
-print(f"Welcome {your_name} to the SimpleX")
+user_name = input("(Optional) Please input your name: \n")
+print(f"Welcome {user_name} to the SimpleX")
 answer = numeric_operation()
 print(f"The answer to your calculation is {answer}")
+
+
+"""
+If the user wishes to execute another action,
+the app will be repeated;
+if not, the app will display the final result and quit.
+"""
+response = input("Do you want to carry out another Calculation y/n?\n")
+while response == "y" or response == "Y":
+    current_answer = numeric_operation()
+    print(f"The result of your calculation is {current_answer}\n")
+    break
+else:
+    print(f"We appreciate you for using SimpleX calculator {user_name}.")
