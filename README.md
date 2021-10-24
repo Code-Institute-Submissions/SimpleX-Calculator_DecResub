@@ -112,7 +112,7 @@ __Languages Used__
 
 This project was deployed using Code Institute's mock terminal for Heroku.
 
-* Follow the steps below to deploy this project to Heroku:
+- The Following steps below were used to deploy this project to Heroku:
 
  * To begin, a new line character must be appended to the end of the input text and saved in order for the input method to   operate correctly in the deployed platform Heroku; otherwise, the text will not appear in the terminal.
 
