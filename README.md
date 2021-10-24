@@ -82,6 +82,16 @@ I distributed the app's URL to my friends and family members in order for them t
 
   * User is able to carry out just three (3) functions on the app, he/she will have to run the program again.
 
+Frameworks, Libraries and Programs Used
+
+* Git
+
+ - The Gitpod terminal was used to commit to Git and push to GitHub, which was utilized for version control.
+
+* GitHub
+
+ - After the project's code was pushed from Git, it was stored on GitHub.
+
 __Validator Testing__
 * PEP8 Online
 
@@ -122,9 +132,17 @@ __Languages Used__
 
  * Next, scroll down to the "Automatic Deploys" section and click the "Enable Automatic Deploys" button to have Heroku rebuild the app whenever a new modification is uploaded to your GitHub source.
 
-* Finally, you'll get a notification that reads "Your app was successfully published," along with a 'View' button that will take you to the deployed URL.
+ * Finally, you'll get a notification that reads "Your app was successfully published," along with a 'View' button that will take you to the deployed URL.
 
-* The program begins (i.e. runs) automatically on the deployed site, but you may restart it (i.e. run it again) by clicking the "RUN PROGRAM" button at the top of the page.
+ * The program begins (i.e. runs) automatically on the deployed site, but you may restart it (i.e. run it again) by clicking the "RUN PROGRAM" button at the top of the page.
+
+
+__Cloning (Local Deployment)__
+
+* The repository may be cloned (i.e. copied onto their system and executed locally from there) to run this application locally by following the procedures below:
+In your terminal, type the following command:[Git clone](https://github.com/RH-devs/SimpleX-Calcuator.git)
+
+* After cloning the project, use this command to install the packages from the requirements.txt file: 'Pip3 freeze > requirements.txt'. However, despite the fact that this project does not include any external Python packages, it is still required (i.e. the requirements.txt file) for the Heroku setup.
 
 * The live link can be found here – [SimpleX Calculator](https://simplex-calculator.herokuapp.com/)
 * The GitHub Repository can be found here - [SimpleX Calculator](https://github.com/RH-devs/SimpleX-Calculator)
