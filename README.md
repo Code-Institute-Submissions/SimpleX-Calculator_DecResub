@@ -95,7 +95,7 @@ Frameworks, Libraries and Programs Used
 __Validator Testing__
 * PEP8 Online
 
-The code was validated using the PEP8 online validation tool to verify there were no syntax problems or inappropriate code indentation.
+The code was validated using the PEP8 online validation tool to verify there were no syntax problems or inappropriate code indentation. [PEP8online](http://pep8online.com/)
 
    * There were no errors were returned when passing through the official PEP8 Validator.
 
@@ -109,6 +109,8 @@ __Languages Used__
 * Python
 
 ## Deployment
+
+This project was deployed using Code Institute's mock terminal for Heroku.
 
 * Follow the steps below to deploy this project to Heroku:
 
