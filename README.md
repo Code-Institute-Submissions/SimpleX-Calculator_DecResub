@@ -104,7 +104,7 @@ __Languages Used__
 
  * To begin, a new line character must be appended to the end of the input text and saved in order for the input method to   operate correctly in the deployed platform Heroku; otherwise, the text will not appear in the terminal.
 
- * In scenarios when the project has many dependencies, such as gspread and google-auth, construct a list of prerequisites that the project need in order to execute. These dependencies must also be installed on Heroku, and they must be included to the requirements.txt file. This project, however, does not need the requirements.txt file.
+ * In scenarios when the project has many dependencies, such as gspread and google-auth, construct a list of prerequisites that the project need in order to execute. These dependencies must also be installed on Heroku, and they must be included to the requirements.txt file. For, this project, there is no content in the requirements.txt file. It wasn't utilized because it wasn't required for this project, but it was left there because it is necessary for Heroku to function properly.
 
  * Go to Heroku's website and sign up for an account by clicking the link below: https://id.heroku.com/login Fill out the form with your information, including your First Name, Last Name, Email Address, Role (for example, "student"), Country (for example, location), and Language (for example, Python). If you're sure you're not a robot, click the "Create free account" button at the bottom of the page.
 
@@ -125,3 +125,6 @@ __Languages Used__
 * Finally, you'll get a notification that reads "Your app was successfully published," along with a 'View' button that will take you to the deployed URL.
 
 * The program begins (i.e. runs) automatically on the deployed site, but you may restart it (i.e. run it again) by clicking the "RUN PROGRAM" button at the top of the page.
+
+* The live link can be found here – [SimpleX Calculator](https://simplex-calculator.herokuapp.com/)
+* The GitHub Repository can be found here - [SimpleX Calculator](https://github.com/RH-devs/SimpleX-Calculator)
