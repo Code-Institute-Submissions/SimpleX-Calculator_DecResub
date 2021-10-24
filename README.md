@@ -66,3 +66,32 @@ __Existing Features__
 __Adding more mathematical functions to the app__
 
 * This feature will help users have choice of using the calculator to carry out other mathematical functions such as Modulo, Median, Mean, Exponent etc.  The impact of this will enhance user experience.
+
+## Testing
+
+I tested it in two dimensions for testing. The initial stage was to test the functions on the Gitpod terminal as they were being developed to ensure I was on track with applying them appropriately and that they worked.
+This was the second level of testing after it was deployed to Heroku. I used a more formal structured approach and tested each function once more. I then ran through the tests for each device to ensure the app functioned properly.
+
+__User level Testing__
+
+I distributed the app's URL to my friends and family members in order for them to test the app's fundamental math features (mobiles, laptops, etc.)
+
+* All maths functions implemented are working perfectly
+
+* Website Responsiveness
+  * Issue reported with footer contents not aligned on smaller screens was corrected by changing the display to flex.
+  * Issue reported with Progress bar and Score conflicting with size on mobile screen was resolved by reducing the font-size.
+
+*	Bugs
+
+  * User is able to carry out just three (3) functions, he/she will have to run the program again.
+
+__Validator Testing__
+* PEP8 Online
+
+The code was validated using the PEP8 online validation tool to verify there were no syntax problems or inappropriate code indentation.
+
+   * There were no errors were returned when passing through the official PEP8 Validator.
+
+![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/PEP8-VALIDATION.PNG)
+
