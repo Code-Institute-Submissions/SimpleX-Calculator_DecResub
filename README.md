@@ -78,21 +78,22 @@ I distributed the app's URL to my friends and family members in order for them t
 
 * All maths functions implemented are working perfectly.
 
-*	Bugs
+__Bugs__
 
   * User is able to carry out just three (3) functions on the app, he/she will have to run the program again.
 
-Frameworks, Libraries and Programs Used
+__Frameworks, Libraries and Programs Used__
 
 * Git
 
- - The Gitpod terminal was used to commit to Git and push to GitHub, which was utilized for version control.
+  * The Gitpod terminal was used to commit to Git and push to GitHub, which was utilized for version control.
 
 * GitHub
 
- - After the project's code was pushed from Git, it was stored on GitHub.
+  * After the project's code was pushed from Git, it was stored on GitHub.
 
 __Validator Testing__
+
 * PEP8 Online
 
 The code was validated using the PEP8 online validation tool to verify there were no syntax problems or inappropriate code indentation. [PEP8online](http://pep8online.com/)
