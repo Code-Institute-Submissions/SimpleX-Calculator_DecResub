@@ -78,13 +78,9 @@ I distributed the app's URL to my friends and family members in order for them t
 
 * All maths functions implemented are working perfectly
 
-* Website Responsiveness
-  * Issue reported with footer contents not aligned on smaller screens was corrected by changing the display to flex.
-  * Issue reported with Progress bar and Score conflicting with size on mobile screen was resolved by reducing the font-size.
-
 *	Bugs
 
-  * User is able to carry out just three (3) functions, he/she will have to run the program again.
+  * User is able to carry out just three (3) functions on the app, he/she will have to run the program again.
 
 __Validator Testing__
 * PEP8 Online
@@ -93,5 +89,5 @@ The code was validated using the PEP8 online validation tool to verify there wer
 
    * There were no errors were returned when passing through the official PEP8 Validator.
 
-![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/PEP8-VALIDATION.PNG)
+![Validator result](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/PEP8-VALIDATION.PNG)
 
