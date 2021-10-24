@@ -7,9 +7,19 @@ This project uses the Python programming language to construct a text-based calc
 ![Device Mockup](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/simplex-mockup-images.png)
 
 ## UX
+
 __SimpleX-Calculator__
 
-* User Objectives
+The app was created with easy functionalities for anyone to carry out numerical functions in their daily activities. The users will be able to the calculate basic maths functions and it is clear enough for any individual of age (both old and young) to access it without limitations.
+
+## Flowchart
+The flowchart was created using the Lucid app and it captures the flow of operation created for the Calculator.
+ 
+ * See flowchart below:
+
+ ![Flow Chart](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/SIMPLEX-FLOWCHART.PNG)
+
+**User Objectives** 
 
   *   The user should be able to add two integers and receive the correct answer.
 
@@ -23,11 +33,14 @@ __SimpleX-Calculator__
 
   *   If a user enters an incorrect number as input, the user should receive feedback.
 
-## Flowchart
-The flowchart was created using the Lucid app and it captures the flow of operation created for the Calculator.
- 
- * See flowchart below:
+## Features
+ This section shows all existing features created to make the calculator functional.
 
- ![Flow Chart](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/SIMPLEX-FLOWCHART.PNG)
- 
+__Existing Features__
+* Option '1' represents Addition ('+') operator for the sum of two numbers.
+* Option '2' represents Subtraction ('-') operator for the difference between two numbers.
+* Option '3' represents Multiply ('*') operator for the product of two numbers.
+* Option '4' represents Division ('/') operator to divide two numbers.
+* Option '5' for Square Root ('√') operator to retrieve the square root of a number.
+
 
