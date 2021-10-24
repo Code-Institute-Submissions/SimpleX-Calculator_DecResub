@@ -95,6 +95,7 @@ response = input("Do you want to carry out another Calculation y/n?\n")
 while response == "y" or response == "Y":
     current_answer = numeric_operation()
     print(f"The result of your calculation is {current_answer}\n")
+    response = input("Do you want to carry out another Calculation y/n?\n")
     break
 else:
     print(f"We appreciate you for using SimpleX calculator {user_name}.")
