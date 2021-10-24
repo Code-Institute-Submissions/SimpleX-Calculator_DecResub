@@ -22,3 +22,12 @@ __SimpleX-Calculator__
   *   The user should be able to correctly compute the square root of an integer.
 
   *   If a user enters an incorrect number as input, the user should receive feedback.
+
+## Flowchart
+The flowchart was created using the Lucid app and it captures the flow of operation created for the Calculator.
+ 
+ * See flowchart below:
+
+ ![Flow Chart](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/SIMPLEX-FLOWCHART.PNG)
+ 
+
