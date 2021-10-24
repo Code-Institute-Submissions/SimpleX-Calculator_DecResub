@@ -99,3 +99,17 @@ __Languages Used__
 * Python
 
 ## Deployment
+
+* Follow the steps below to deploy this project to Heroku:
+
+ * To begin, a new line character must be appended to the end of the input text and saved in order for the input method to   operate correctly in the deployed platform Heroku; otherwise, the text will not appear in the terminal.
+
+ * In scenarios when the project has many dependencies, such as gspread and google-auth, construct a list of prerequisites that the project need in order to execute. These dependencies must also be installed on Heroku, and they must be included to the requirements.txt file. This project, however, does not need the requirements.txt file.
+
+ * Go to Heroku's website and sign up for an account by clicking the link below: https://id.heroku.com/login Fill out the form with your information, including your First Name, Last Name, Email Address, Role (for example, "student"), Country (for example, location), and Language (for example, Python). If you're sure you're not a robot, click the "Create free account" button at the bottom of the page.
+
+ * Open the confirmation email given to the email address you used to register with Heroku. To confirm, click the link provided, which will lead you to a new page where you may establish a password, then click the "Set password and Login button." A welcome message appears, so click the "Click here to proceed" button and accept the terms.
+
+ * Click the "Create new app" button on the Heroku dashboard, give your app a unique name, pick your location, and then click the "Create app" button.
+ 
+* Scroll down to the 'Config Vars' section and click on the 'Reveal Config Vars' button after clicking on the "Settings" tab at the top of the page. Type the word "PORT" in all capital letters in the 'KEY' area, and '8000' in the value field, then click the 'Add' button.
