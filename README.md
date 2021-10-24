@@ -61,3 +61,8 @@ __Existing Features__
 
 ![Exit Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/exit-function.PNG)
 
+## Future Enhancements
+
+__Adding more mathematical functions to the app__
+
+* This feature will help users have choice of using the calculator to carry out other mathematical functions such as Modulo, Median, Mean, Exponent etc.  The impact of this will enhance user experience.
