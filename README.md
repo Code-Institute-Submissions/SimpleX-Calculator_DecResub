@@ -38,9 +38,26 @@ The flowchart was created using the Lucid app and it captures the flow of operat
 
 __Existing Features__
 * Option '1' represents Addition ('+') operator for the sum of two numbers.
+
+![Add Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Addition-function.PNG)
+
 * Option '2' represents Subtraction ('-') operator for the difference between two numbers.
+
+![Subtract Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Subtract-function.PNG)
+
 * Option '3' represents Multiply ('*') operator for the product of two numbers.
+
+![Multiply Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/multiply-function.PNG)
+
 * Option '4' represents Division ('/') operator to divide two numbers.
+
+![Division Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/division-function.PNG)
+
 * Option '5' for Square Root ('√') operator to retrieve the square root of a number.
 
+![Division Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
+
+* Option '6' for Exit.
+
+![Exit Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/exit-function.PNG)
 
