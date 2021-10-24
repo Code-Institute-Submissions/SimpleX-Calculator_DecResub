@@ -112,4 +112,16 @@ __Languages Used__
 
  * Click the "Create new app" button on the Heroku dashboard, give your app a unique name, pick your location, and then click the "Create app" button.
  
-* Scroll down to the 'Config Vars' section and click on the 'Reveal Config Vars' button after clicking on the "Settings" tab at the top of the page. Type the word "PORT" in all capital letters in the 'KEY' area, and '8000' in the value field, then click the 'Add' button.
+ * Scroll down to the 'Config Vars' section and click on the 'Reveal Config Vars' button after clicking on the "Settings" tab at the top of the page. Type the word "PORT" in all capital letters in the 'KEY' area, and '8000' in the value field, then click the 'Add' button.
+
+ * After that, scroll down to the 'Buildpacks' area and click the "Add buildpack" button, then pick "Python" as the first buildpack required and click the "Save changes" button. Click the "Add buildpack" button once more, this time selecting "node.js" as the second buildpack required, and then clicking the "Save changes" button. Ensure that the buildpacks are in the correct sequence, with Python on top and node.js below, or click & drag them into place.
+
+ * Select GitHub as the deployment option from the "Deploy" tab at the top of the page, then scroll down and select the "Connect to GitHub" button.
+
+ * Search for your repository name by putting it into the search box and clicking "Search," then click "Connect" to connect your Heroku app to your GitHub repository code.
+
+ * Next, scroll down to the "Automatic Deploys" section and click the "Enable Automatic Deploys" button to have Heroku rebuild the app whenever a new modification is uploaded to your GitHub source.
+
+* Finally, you'll get a notification that reads "Your app was successfully published," along with a 'View' button that will take you to the deployed URL.
+
+* The program begins (i.e. runs) automatically on the deployed site, but you may restart it (i.e. run it again) by clicking the "RUN PROGRAM" button at the top of the page.
