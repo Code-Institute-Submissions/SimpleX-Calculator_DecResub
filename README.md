@@ -6,4 +6,19 @@ This project uses the Python programming language to construct a text-based calc
 
 ![Device Mockup](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/simplex-mockup-images.png)
 
+## UX
+__SimpleX-Calculator__
 
+* User Objectives
+
+  *   The user should be able to add two integers and receive the correct answer.
+
+  *   The user must be able to subtract two integers and arrive at the correct answer.
+
+  *   The user must be able to multiply two integers and obtain the correct answer.
+
+  *   The user must be able to divide two integers and come up with the correct answer.
+
+  *   The user should be able to correctly compute the square root of an integer.
+
+  *   If a user enters an incorrect number as input, the user should receive feedback.
