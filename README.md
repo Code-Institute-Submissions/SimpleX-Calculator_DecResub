@@ -76,7 +76,7 @@ __User level Testing__
 
 I distributed the app's URL to my friends and family members in order for them to test the app's fundamental math features (mobiles, laptops, etc.)
 
-* All maths functions implemented are working perfectly
+* All maths functions implemented are working perfectly.
 
 *	Bugs
 
@@ -90,4 +90,11 @@ The code was validated using the PEP8 online validation tool to verify there wer
    * There were no errors were returned when passing through the official PEP8 Validator.
 
 ![Validator result](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/PEP8-VALIDATION.PNG)
+
+
+## Technologies Used
+
+__Languages Used__
+
+* Python
 
