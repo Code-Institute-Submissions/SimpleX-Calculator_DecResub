@@ -31,9 +31,6 @@ def numeric_operation():
         result = sqrt_num ** NUM_CONSTANT
         print("Calculation Successfully Done.\n")
         return result
-    if option == "6":
-        print(f"Thanks {user_name} for using SimpleX")
-        exit()
     else:
         num1 = number_entry("1st number")
         num2 = number_entry("2nd number")
@@ -76,15 +73,15 @@ def number_entry(pos):
             print("Invalid entry - not a number. \n"
                   "Please try again!")
 
-def custom_message():
-    """
-    Accept user name and displays a personalised welcome message
-    to the user.
-    """
-    user_name = input("(Optional) Please input your name: \n")
-    print(f"Welcome {user_name} to the SimpleX")
-    answer = numeric_operation()
-    print(f"The answer to your calculation is {answer}")
+
+"""
+Accept user name and displays a personalised welcome message
+to the user.
+"""
+user_name = input("(Optional) Please input your name: \n")
+print(f"Welcome {user_name} to the SimpleX")
+answer = numeric_operation()
+print(f"The answer to your calculation is {answer}")
 
 
 """
@@ -95,8 +92,7 @@ if not, the app will display the final result and quit.
 response = input("Do you want to carry out another Calculation y/n?\n")
 while response == "y" or response == "Y":
     current_answer = numeric_operation()
-    print(f"The result of your calculation is {current_answer}\n")
-    response = input("Do you want to carry out another Calculation y/n?\n")
-    break
+    print(f"The total result of your calculation is {current_answer}\n")
+    response = input("Would you like to Perform another Calculation y/n?\n")
 else:
     print(f"We appreciate you for using SimpleX calculator {user_name}.")
