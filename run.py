@@ -13,9 +13,10 @@ def select_operator():
                  "2. Subtraction\n"
                  "3. Multiply\n"
                  "4. Division\n"
-                 "5. Square root\n"
-                 "6. Exit\n")
+                 "5. Square root\n")
     return option
+    else:
+        return("You have entered an invalid operator")
 
 
 def numeric_operation():
@@ -56,7 +57,7 @@ def numeric_operation():
             print("Calculation Successfully Done.\n")
             return result
         else:
-            return "Null. You entered an invalid operator"
+            return("Invalid operation")
 
 
 def number_entry(pos):
@@ -68,10 +69,11 @@ def number_entry(pos):
     while True:
         try:
             num = float(input(f"Enter {pos}:\n"))
-            return num
-        except ValueError:
-            print("Invalid entry - not a number. \n"
-                  "Please try again!")
+        except ValueError as ERROR:
+            print("Invalid entry - not a number.\n")
+            print(ERROR)
+            print("\nPlease try again!")
+            return
 
 
 """
@@ -93,6 +95,6 @@ response = input("Do you want to carry out another Calculation y/n?\n")
 while response == "y" or response == "Y":
     current_answer = numeric_operation()
     print(f"The total result of your calculation is {current_answer}\n")
-    response = input("Would you like to Perform another Calculation y/n?\n")
+    response = input("Would you like to do another Calculation y/n?\n")
 else:
-    print(f"We appreciate you for using SimpleX calculator {user_name}.")
+    print("We appreciate you for using SimpleX calculator")
