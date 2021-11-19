@@ -59,7 +59,7 @@ def numeric_operation():
             print("Calculation Successfully Done.\n")
             return result
         else:
-            return " None, An invalid operator has been selected"
+            return "Null. You entered an invalid operator"
 
 
 def number_entry(pos):
@@ -73,17 +73,18 @@ def number_entry(pos):
             num = float(input(f"Enter {pos}:\n"))
             return num
         except ValueError:
-            print("Invalid entry, Please try again!:\n")
+            print("Invalid entry - not a number. \n"
+                  "Please try again!")
 
-
-"""
-Accept user name and displays a personalised welcome message
-to the user.
-"""
-user_name = input("(Optional) Please input your name: \n")
-print(f"Welcome {user_name} to the SimpleX")
-answer = numeric_operation()
-print(f"The answer to your calculation is {answer}")
+def custom_message():
+    """
+    Accept user name and displays a personalised welcome message
+    to the user.
+    """
+    user_name = input("(Optional) Please input your name: \n")
+    print(f"Welcome {user_name} to the SimpleX")
+    answer = numeric_operation()
+    print(f"The answer to your calculation is {answer}")
 
 
 """
