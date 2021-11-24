@@ -13,10 +13,9 @@ def select_operator():
                  "2. Subtraction\n"
                  "3. Multiply\n"
                  "4. Division\n"
-                 "5. Square root\n")
+                 "5. Square root\n"
+                 "6. Exit\n")
     return option
-    else:
-        return("You have entered an invalid operator")
 
 
 def numeric_operation():
@@ -57,7 +56,7 @@ def numeric_operation():
             print("Calculation Successfully Done.\n")
             return result
         else:
-            return("Invalid operation")
+            return " None, An invalid operator has been selected"
 
 
 def number_entry(pos):
@@ -69,32 +68,35 @@ def number_entry(pos):
     while True:
         try:
             num = float(input(f"Enter {pos}:\n"))
-        except ValueError as ERROR:
-            print("Invalid entry - not a number.\n")
-            print(ERROR)
-            print("\nPlease try again!")
-            return
+            return num
+        except ValueError:
+            print("Invalid entry, Please try again!:\n")
 
 
-"""
-Accept user name and displays a personalised welcome message
-to the user.
-"""
-user_name = input("(Optional) Please input your name: \n")
-print(f"Welcome {user_name} to the SimpleX")
-answer = numeric_operation()
-print(f"The answer to your calculation is {answer}")
+def welcome():
+    """
+    Accept user name and displays a personalised welcome message
+    to the user.
+    """
+    user_name = input("(Optional) Please input your name: \n")
+    print(f"Welcome {user_name} to the SimpleX")
+    answer = numeric_operation()
+    print(f"The answer to your calculation is {answer}")
+welcome()
 
 
-"""
-If the user wishes to execute another action,
-the app will be repeated;
-if not, the app will display the final result and quit.
-"""
-response = input("Do you want to carry out another Calculation y/n?\n")
-while response == "y" or response == "Y":
-    current_answer = numeric_operation()
-    print(f"The total result of your calculation is {current_answer}\n")
-    response = input("Would you like to do another Calculation y/n?\n")
-else:
-    print("We appreciate you for using SimpleX calculator")
+def again():
+    """
+    If the user wishes to execute another action,
+    the app will be repeated;
+    if not, the app will display the final result and quit.
+    """
+    response = input("Do you want to carry out another Calculation y/n?\n")
+    while response == "y" or response == "Y":
+        current_answer = numeric_operation()
+        print(f"The result of your calculation is {current_answer}\n")
+        response = input("Do you want to carry out another Calculation y/n?\n")
+    else:
+        print(f"We appreciate you for using SimpleX calculator {user_name}.")
+again()
+select_operator()
