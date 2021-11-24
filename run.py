@@ -1,3 +1,6 @@
+import sys
+
+
 def select_operator():
     """
     User input is requested for operator selection,
@@ -6,7 +9,8 @@ def select_operator():
     """
 
     global option
-    option = input(
+    while True:
+        option = input(
                  "The functions below will help carry out your calculation:\n"
                  "Select your preferred option:\n"
                  "1. Addition\n"
@@ -15,6 +19,18 @@ def select_operator():
                  "4. Division\n"
                  "5. Square root\n"
                  "6. Exit\n")
+
+        option = option.strip()
+
+        if option not in {'1', '2', '3', '4', '5', '6'}:
+            print("Invalid selector. Please select options between 1 and 6")
+
+        else:
+            break
+
+    if option == '6':
+        sys.exit(0)
+
     return option
 
 
@@ -52,9 +68,13 @@ def numeric_operation():
             return result
         elif my_option == "4":
             print("Currently working on Division function...\n")
-            result = num1 / num2
-            print("Calculation Successfully Done.\n")
-            return result
+            try:
+                if True:
+                    result = num1 / num2
+                    print("Calculation Successfully Done.\n")
+                return result
+            except ZeroDivisionError as err:
+                print("Number can't be divided by 0")
         else:
             return " None, An invalid operator has been selected"
 
@@ -82,6 +102,8 @@ def welcome():
     print(f"Welcome {user_name} to the SimpleX")
     answer = numeric_operation()
     print(f"The answer to your calculation is {answer}")
+
+
 welcome()
 
 
@@ -97,6 +119,9 @@ def again():
         print(f"The result of your calculation is {current_answer}\n")
         response = input("Do you want to carry out another Calculation y/n?\n")
     else:
-        print(f"We appreciate you for using SimpleX calculator {user_name}.")
+        print(f"We appreciate you for using SimpleX calculator. Goodbye!")
+
+
 again()
-select_operator()
+
+
