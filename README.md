@@ -117,6 +117,10 @@ A feedback prompts the user When the wrong option for calculation is selected.
 
 
   *   If a user enters an incorrect number as input, the user should receive feedback.
+A feedback prompts the user When the wrong number entry for calculation is inputed.
+![Invalid Entry](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidentry2.PNG)
+![Invalid Entry](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidnumberentry.PNG)
+
 
   *   The user should be able to continue or not continue with carrying out more calculations.
 
