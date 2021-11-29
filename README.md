@@ -59,7 +59,7 @@ __Existing Features__
 
 * Option '5' for Square Root ('√') operator to retrieve the square root of a number.
 
-![Division Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
+![Squareroot Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
 
 * Option '6' for Exit.
 
@@ -84,20 +84,31 @@ I distributed the app's URL to my friends and family members in order for them t
 
   *   The user should be able to add two integers and receive the correct answer.
 
-User inputs two numbers, the app performs the addition function and produces the correct result as seen in the screenshots below:
+User inputs two numbers, the app performs the addition function and produces the correct result as seen in the screenshot below:
 ![Add Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Addition-function.PNG)
 
 
   *   The user must be able to subtract two integers and arrive at the correct answer.
 
-User inputs two numbers, the app performs the subtraction function and produces the correct result as seen in the screenshots below:
+User inputs two numbers, the app performs the subtraction function and produces the correct result as seen in the screenshot below:
 ![Subtract Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Subtract-function.PNG)
+
 
   *   The user must be able to multiply two integers and obtain the correct answer.
 
+User inputs two numbers, the app performs the Multiplication function and produces the correct result as seen in the screenshot below:
+![Multiply Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/multiply-function.PNG)
+
+
   *   The user must be able to divide two integers and come up with the correct answer.
+User inputs two numbers, the app performs the Division function and produces the correct result as seen in the screenshot below:
+![Division Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/division-function.PNG)
+
 
   *   The user should be able to correctly compute the square root of an integer.
+User inputs one number, the app performs the square root function and produces the correct result as seen in the screenshot below:
+![Squareroot Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
+
 
   *   The user should get a feedback when a wrong option is selected.
 
