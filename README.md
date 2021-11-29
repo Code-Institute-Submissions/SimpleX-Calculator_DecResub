@@ -110,7 +110,11 @@ User inputs one number, the app performs the square root function and produces t
 ![Squareroot Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
 
 
-  *   The user should get a feedback when a wrong option is selected.
+  *   The user should get a feedback when a wrong option is selected or if an empty data is used.
+A feedback prompts the user When the wrong option for calculation is selected.
+![Invalid Selection](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidselection.PNG)
+![Invalid Selection](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidselection2.PNG)
+
 
   *   If a user enters an incorrect number as input, the user should receive feedback.
 
