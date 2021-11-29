@@ -110,6 +110,11 @@ User inputs one number, the app performs the square root function and produces t
 ![Squareroot Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
 
 
+  *   The user should be able exit the application using the exit function.
+User selects the option for exit and the application stops running.
+![Exit Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/exit-function.PNG)
+
+
   *   The user should get a feedback when a wrong option is selected or if an empty data is used.
 A feedback prompts the user When the wrong option for calculation is selected.
 ![Invalid Selection](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidselection.PNG)
@@ -123,6 +128,10 @@ A feedback prompts the user When the wrong number entry for calculation is input
 
 
   *   The user should be able to continue or not continue with carrying out more calculations.
+
+![Carrying out more calculations](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Again-Yes.PNG)
+![Not Carrying out more calculations](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Again-No.PNG)
+
 
 __Bugs__
 
