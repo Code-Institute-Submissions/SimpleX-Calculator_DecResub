@@ -35,7 +35,7 @@ The flowchart was created using the Lucid app and it captures the flow of operat
 
   *   If a user enters an incorrect number as input, the user should receive feedback.
 
-  *   The user should be able to continue or notcontinue with carrying out more calculations.
+  *   The user should be able to continue or not continue with carrying out more calculations.
 
 ## Features
  This section shows all existing features created to make the calculator functional.
@@ -82,7 +82,28 @@ I distributed the app's URL to my friends and family members in order for them t
 
 * All maths functions implemented are working perfectly.
 
-i. I want to be able to add two numbers together and get the right result.
+  *   The user should be able to add two integers and receive the correct answer.
+
+User inputs two numbers, the app performs the addition function and produces the correct result as seen in the screenshots below:
+![Add Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Addition-function.PNG)
+
+
+  *   The user must be able to subtract two integers and arrive at the correct answer.
+
+User inputs two numbers, the app performs the subtraction function and produces the correct result as seen in the screenshots below:
+![Subtract Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Subtract-function.PNG)
+
+  *   The user must be able to multiply two integers and obtain the correct answer.
+
+  *   The user must be able to divide two integers and come up with the correct answer.
+
+  *   The user should be able to correctly compute the square root of an integer.
+
+  *   The user should get a feedback when a wrong option is selected.
+
+  *   If a user enters an incorrect number as input, the user should receive feedback.
+
+  *   The user should be able to continue or not continue with carrying out more calculations.
 
 __Bugs__
 
