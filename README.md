@@ -80,8 +80,10 @@ I distributed the app's URL to my friends and family members in order for them t
 
 __Bugs__
 
-  * User is able to carry out just three (3) functions on the app, he/she will have to run the program again. This was fixed by removing the break statement which was initially in between the function written to prompt users to carry out calculations again.
-  
+  * User were able to carry out just two (2) functions on the app, he/she will have to run the program again. This was fixed by removing the break statement which was initially in between the function written to prompt users to carry out calculations again.
+
+  * When User gives empty input when selecing the calculation option, it does not raise any error. This was fixed using the "While True" loop which was used to indicate that the loop has to run until it breaks.
+
 __Frameworks, Libraries and Programs Used__
 
 * Git
