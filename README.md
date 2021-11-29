@@ -31,7 +31,11 @@ The flowchart was created using the Lucid app and it captures the flow of operat
 
   *   The user should be able to correctly compute the square root of an integer.
 
+  *   The user should get a feedback when a wrong option is selected.
+
   *   If a user enters an incorrect number as input, the user should receive feedback.
+
+  *   The user should be able to continue or notcontinue with carrying out more calculations.
 
 ## Features
  This section shows all existing features created to make the calculator functional.
@@ -77,6 +81,8 @@ __User level Testing__
 I distributed the app's URL to my friends and family members in order for them to test the app's fundamental math features (laptops)
 
 * All maths functions implemented are working perfectly.
+
+i. I want to be able to add two numbers together and get the right result.
 
 __Bugs__
 
@@ -170,6 +176,8 @@ __Content__
 ## Acknowledgement
 
  * Code Institute on the walkthrough python essential project.
+
+ * My mentor Brian Macharia for pointing out errors made and assisting in resolving it.
 
  * Learn Code tutorial video on YouTube for helpful resources.
 
