@@ -74,14 +74,14 @@ This was the second level of testing after it was deployed to Heroku. I used a m
 
 __User level Testing__
 
-I distributed the app's URL to my friends and family members in order for them to test the app's fundamental math features (mobiles, laptops, etc.)
+I distributed the app's URL to my friends and family members in order for them to test the app's fundamental math features (laptops)
 
 * All maths functions implemented are working perfectly.
 
 __Bugs__
 
-  * User is able to carry out just three (3) functions on the app, he/she will have to run the program again.
-
+  * User is able to carry out just three (3) functions on the app, he/she will have to run the program again. This was fixed by removing the break statement which was initially in between the function written to prompt users to carry out calculations again.
+  
 __Frameworks, Libraries and Programs Used__
 
 * Git

@@ -119,9 +119,7 @@ def again():
         print(f"The result of your calculation is {current_answer}\n")
         response = input("Do you want to carry out another Calculation y/n?\n")
     else:
-        print(f"We appreciate you for using SimpleX calculator. Goodbye!")
+        print(f"We appreciate you for using SimpleX calculator. Goodbye!\n")
 
 
 again()
-
-
