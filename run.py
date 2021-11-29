@@ -43,7 +43,7 @@ def numeric_operation():
     NUM_CONSTANT = 0.5
     if option == "5":
         print("Currently working on Square Root...\n")
-        sqrt_num = number_entry("1")
+        sqrt_num = number_entry("a number")
         result = sqrt_num ** NUM_CONSTANT
         print("Calculation Successfully Done.\n")
         return result
