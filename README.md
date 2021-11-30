@@ -82,47 +82,58 @@ I distributed the app's URL to my friends and family members in order for them t
 
 * All maths functions implemented are working perfectly.
 
+![App Functionality](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/app-functionality.PNG)
+
+
   *   The user should be able to add two integers and receive the correct answer.
 
 User inputs two numbers, the app performs the addition function and produces the correct result as seen in the screenshot below:
+
 ![Add Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Addition-function.PNG)
 
 
   *   The user must be able to subtract two integers and arrive at the correct answer.
 
 User inputs two numbers, the app performs the subtraction function and produces the correct result as seen in the screenshot below:
+
 ![Subtract Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/Subtract-function.PNG)
 
 
   *   The user must be able to multiply two integers and obtain the correct answer.
 
 User inputs two numbers, the app performs the Multiplication function and produces the correct result as seen in the screenshot below:
+
 ![Multiply Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/multiply-function.PNG)
 
 
   *   The user must be able to divide two integers and come up with the correct answer.
 User inputs two numbers, the app performs the Division function and produces the correct result as seen in the screenshot below:
+
 ![Division Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/division-function.PNG)
 
 
   *   The user should be able to correctly compute the square root of an integer.
 User inputs one number, the app performs the square root function and produces the correct result as seen in the screenshot below:
+
 ![Squareroot Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/squareroot-function.PNG)
 
 
   *   The user should be able exit the application using the exit function.
 User selects the option for exit and the application stops running.
+
 ![Exit Function](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/exit-function.PNG)
 
 
   *   The user should get a feedback when a wrong option is selected or if an empty data is used.
 A feedback prompts the user When the wrong option for calculation is selected.
+
 ![Invalid Selection](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidselection.PNG)
 ![Invalid Selection](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidselection2.PNG)
 
 
   *   If a user enters an incorrect number as input, the user should receive feedback.
 A feedback prompts the user When the wrong number entry for calculation is inputed.
+
 ![Invalid Entry](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidentry2.PNG)
 ![Invalid Entry](https://github.com/RH-devs/SimpleX-Calcuator/blob/main/assets/images/userstory_invalidnumberentry.PNG)
 
